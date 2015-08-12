@@ -1,0 +1,402 @@
+/* CSS Document */
+
+body { padding:97px 0px 0px 0px; /*  Patch menu siempre visible */ }
+header 									{
+	display:block;
+	background:rgba(63,70,78,1);
+	border-top:1px solid rgba(72,79,86,1.00);
+	padding:0px 0px;
+	height:97px;
+	text-align:right;
+/*  Patch menu siempre visible */
+	width:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 10;
+	}
+header h1 								{
+	display:block;
+	cursor:pointer;
+	margin:20px 0px;
+	padding:0px;
+	width:210px;
+	height:58px;
+	background:url(../imagenes/savant-logo.png) center center no-repeat;
+	overflow:hidden;
+	white-space:nowrap;
+	text-indent:400px;
+	float:left;
+	}
+nav 									{ margin:-1px -15px 0px 0px; }
+nav a 									{
+	display:inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: normal;
+	padding:35px 18px 10px 18px;
+	border-radius:0px 0px 5px 5px;
+	color: #FFF;
+	}
+nav a.select 							{ background:rgba(56,62,70,1.00); }
+nav a.select:hover						{ background:rgba(56,62,70,1.00); }
+nav a:hover								{ background:rgba(56,62,70,0.50); }
+
+	
+.warp 									{ display:block; width:980px; margin:0px auto; }
+.fright									{ float:right; margin-left:35px; }
+.WhiteContent 							{ display:block; }
+.GrayContent 							{ display:block; background:#E1E2E3; padding:50px 0px; }
+
+.imagenLink								{
+	display:block;
+	background:rgba(56,62,70,0.30);
+	font-size:13px;
+	color:rgba(56,62,70,1.00);
+	padding:10px;
+	margin:0px auto;
+	}
+.imagenLink	h4							{ margin:0px; font-size:14px; }
+.imagenLink	img							{ margin:5px 0px; }
+.imagenLink	a							{ color:#000; }
+	
+.infocontacto 							{
+	background:rgba(56,62,70,1.00);
+	font-size:13px;
+	color:rgba(196,197,199,1.00);
+	padding:3px 0px;
+	line-height: 36px;
+	}
+.infocontacto a							{
+	color:rgba(196,197,199,1.00);
+	text-decoration:none;
+	}
+.infocontacto img 						{ vertical-align:text-top; margin-right:5px; }
+.infocontacto .redessociales 			{
+	display:block;
+	height: 36px;
+	float:right;
+	}
+.infocontacto .redessociales .social 	{
+	display:inline-block;
+	overflow:hidden;
+	color:rgba(196,197,199,1.00);
+	width:23px; height:35px;
+	text-indent:50px;
+	}
+.infocontacto .redessociales span 		{ display:inline-block; float:left; height:35px; line-height:35px; margin-right:10px; }
+.infocontacto .redessociales .facebook 	{ background:url(../imagenes/iconos/social-small-facebook.png) center center no-repeat; }
+.infocontacto .redessociales .twitter 	{ background:url(../imagenes/iconos/social-small-twitter.png) center center no-repeat; }
+.infocontacto .redessociales .google 	{ background:url(../imagenes/iconos/social-small-google.png) center center no-repeat; }
+.infocontacto .redessociales .youtube 	{ background:url(../imagenes/iconos/social-small-youtube.png) center center no-repeat; }
+
+#ArticulosAlopecia						{ margin-top:50px; margin-bottom:50px; }
+#Testimonios							{ position:relative; }
+#Testimonios h2							{ margin-top:0px; }
+#Testimonios .controles					{
+	display:block;
+	position:absolute;
+	right:0px;
+	top:36px;
+	height:17px;
+	margin:0px;
+	}
+#Testimonios .controles	.prev			{
+	display:inline-block;
+	background:url(../imagenes/controls-prev-01.png) center center no-repeat;
+	width:17px;
+	height:17px;
+	cursor:pointer;
+	text-indent:20px;
+	overflow:hidden;
+	margin-right:2px;
+	}
+#Testimonios .controles	.next			{
+	display:inline-block;
+	background:url(../imagenes/controls-next-01.png) center center no-repeat;
+	width:17px;
+	height:17px;
+	cursor:pointer;
+	text-indent:20px;
+	overflow:hidden;
+	margin-left:2px;
+	}
+#Testimonios .Testimonio img			{ float:left; }
+#Testimonios .Testimonio p.frase		{ margin-left:105px; font-style:italic; font-size:17px; padding-right:17px; }
+#Testimonios .Testimonio p.nombre		{ margin-left:105px; font-size:16px; font-weight:bold; }
+#Testimonios .Testimonio p.nombre small	{ font-size:14px; font-weight:normal; }
+
+.infoContacto							{
+	display:block;
+	margin:50px 0px 0px 0px;
+	float:right;
+	width:400px;
+	}
+.Cols2									{ display:block; }
+.Cols2 .izq								{
+	display:block;
+	border-right:1px solid rgba(56,62,70,0.50);
+	padding-right:30px;
+	}
+.Cols2 .der								{
+	display:block;
+	float: right;
+	}
+.Cols2.R54	.izq 						{ margin-right:452px; }
+.Cols2.R54	.der 						{ width: 420px; }
+	
+
+#MainSlide 								{
+	display: block;
+	height: 395px;
+	background: url(../imagenes/slides/banner-principal.jpg) center center no-repeat;
+	}
+#BeneficioSavant						{ width:375px; }
+#EscalaHamilton 						{ width:756px; }
+
+
+/* Estilos de Fuente y Elementos */
+
+.ArticleList .ItemList					{
+	background:url(../imagenes/bullet-02.png) left 8px no-repeat;
+	padding-left:25px;
+	}
+.ArticleList .ItemList h3				{ margin-bottom:0px; margin-top:0px; }
+.ArticleList .ItemList h3 a				{
+	font-size:18px;
+	color:rgba(63,70,78,1.00);
+	}
+.ArticleList .ItemList p				{ font-size: 14px; margin-top:0px; }
+
+
+h3										{
+	font-size: 26px;
+	font-weight:normal;
+	letter-spacing: -1px;
+	line-height: 31px;
+	color: #383E46;
+	margin-bottom: 5px;
+	}
+h3 + p									{ margin-top:0px; }
+h5										{
+	font-size: 20px;
+	font-weight:normal;
+	letter-spacing: -1px;
+	color: #383E46;
+	margin-bottom: 0px;
+	padding-left:20px;
+	}
+h5 span									{ display:inline-block; width:30px; }
+h5 + p									{ margin-top:0px; }	
+
+
+/* Elementos de Contenido */
+.PorQueSavant 							{
+	display:block;
+	background:rgba(56,62,70,1.00);
+	margin:0px;
+	padding:25px;
+	color:rgba(255,255,255,1);
+	box-shadow:rgba(56,62,70,.2) 8px 8px 0px;
+	text-align:center;
+	}
+.PorQueSavant h3 						{
+	font-family:'Open Sans', sans-serif;
+	color:#FFF;
+	text-shadow:rgba(0,0,0,.2) 3px 3px 1px;
+	font-size:21px;
+	font-weight:normal;
+	letter-spacing:-1px;
+	line-height:24px;
+	margin:0px 0px 0px 0px;
+	}
+.PorQueSavant h3 strong 				{ font-size:25px; }
+.PorQueSavant p 						{
+	text-align:center;
+	font-size:14px;
+	}
+.PorQueSavant p strong 					{
+	font-family:'Open Sans', sans-serif;
+	font-weight:normal;
+	text-shadow:rgba(0,0,0,.2) 3px 3px 1px;
+	line-height:24px;
+	letter-spacing:-1px;
+	font-size:22px;
+	}
+.PorQueSavant p strong big 				{
+	font-family:'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:26px;
+	text-transform:uppercase;
+	}
+
+.DoctorLeft								{ background:url(../imagenes/backgrounds/doctor-demo.png) center bottom no-repeat; }
+.DoctorLeft	.warp						{ padding:40px 0px 40px 430px; width:550px; }
+.DoctorRight							{ background:url(../imagenes/backgrounds/doctor-demo2.png) center bottom no-repeat #E1E2E3; }
+.DoctorRight .warp						{ padding:40px 430px 40px 0px; width:550px; }
+
+.Doctor									{
+	display:block;
+	min-height:400px;
+	font-size:14px;
+	color:rgba(56,62,70,1.00);
+	}
+.Doctor	h4								{ font-size:24px; margin:0px 0px 10px 0px; }
+
+
+#Servicios								{ padding:50px 0px; }
+#Servicios article						{ display:block; text-align:center; }
+#Servicio_ImplanteCapilar				{ width:340px; margin:0px auto; }
+#Servicio_Criopolisis					{ width:280px; float:left; padding-top:60px; }
+#Servicio_Botox							{ width:280px; float:right; padding-top:60px; }
+
+/* Estilos de Formulario */
+
+#ContactoPrincipal						{ display:block; width:480px; padding:50px 0px; }
+.FormField								{ display:block; position:relative; margin:0px 0px 7px 0px; }
+.FormField label						{
+	display:block;
+	text-transform:uppercase;
+	font-family:'Open Sans', sans-serif;
+	font-size:11px;
+	color:rgba(56,62,70,0.70);
+	position:absolute;
+	left:10px; 
+	top:5px;
+	}
+.FormField input[type=text],
+.FormField input[type=email],
+.FormField input[type=tel],
+.FormField select,
+.FormField textarea						{
+	display:block;
+	box-shadow:rgba(56,62,70,0.10) 3px 3px 0px;
+	border:1px solid rgba(56,62,70,0.50);
+	border-radius:3px;
+	padding:20px 10px 5px 10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	width:450px;
+	}
+.FormField select						{ width:470px; }
+.FormField textarea						{ height:150px; }
+.FormField input[type=submit]			{
+	display:inline-block;
+	background:url(../imagenes/button-01.png) center right no-repeat;
+	font-size:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:rgba(255,255,255,1.00);
+	padding:9px 45px 9px 20px;
+	border-radius:5px;
+	border:none;
+	overflow:hidden;
+	margin:10px 0px 0px 0px;
+	cursor:pointer;
+	}
+
+
+
+
+#TratamientosAlopecia 					{
+	padding: 20px 0px;
+}
+#TratamientosAlopecia article 			{
+	display:inline-block;
+	margin-right:30px;
+	width:320px;
+	}
+#TratamientosAlopecia article h2 		{ padding-top:30px; }
+
+#TratamientosAlopecia aside 			{
+	display: inline-block;
+	background: rgba(56,62,70,1);
+	text-align: center;
+	padding: 30px 15px;
+	width: 240px;
+	}
+#TratamientosAlopecia aside p 			{
+	font-size:17px;
+	margin-bottom:0px;
+	color:#FFF;
+	}
+#TratamientosAlopecia aside p strong 	{
+	font-size:17px;
+	font-weight:bold;
+	margin-bottom:0px;
+	color:#FFF;
+	}
+#TratamientosAlopecia aside small 		{
+	display:block;
+	font-size:12px;
+	line-height:12px;
+	margin:5px 0px 15px 0px;
+	color:#C4C5C7;
+	}
+#TratamientosAlopecia aside big 		{
+	display:block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	line-height:24px;
+	margin:30px 0px 0px 0px;
+	color:#FFF;
+	}
+#TratamientosAlopecia aside strong 		{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	text-transform:uppercase;
+	line-height:20px;
+	margin:0px;
+	color:#C4C5C7;
+	}
+
+
+#TecnicaFUE								{
+	height:380px;
+	margin:40px 0px 0px 0px;
+	padding:0px;
+	background-image:url(../imagenes/backgrounds/index-tecnicaFUE.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:local;
+	}
+#TecnicaFUE .subwarp 					{
+	margin-left: 550px;
+	padding-top: 20px;
+	}
+#LogoIshrs								{
+	float:right; 
+	margin-left:25px;
+	margin-top:40px;
+	width:331px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

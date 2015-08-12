@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://savant.com.mx/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/index.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/quienes-somos.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/alopecia-androgenetica.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/servicios.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/informacion.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/faq.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/contacto.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/procedimiento-extraccion-unidades-foliculares.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/antecedentes-tecnica-FUE.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/escala-hamilton-norwood.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://savant.com.mx/politica-privacidad.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
