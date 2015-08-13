@@ -63,7 +63,7 @@
         <p class="nombre">Fernando Tirado<br><small>Conductor de ESPN<br>Latinoamérica.<br>Twitter @Fer_Tirado</small></p>
     </div>
     </div>
-    
+
 	<div class="izq">
 	  <h2><small>Información</small>Últimos Artículos</h2>
 	  <p class="small">Conoce más, aprende, y mantente informado sobre todas las noticas de actualidad que rodean el mundo de la alopecia andorgenetica..</p>
@@ -80,12 +80,31 @@
         <h3><a href="dudas-y-datos-de-cabello.php">Dudas y datos del cabello.</a></h3>
         <p>Con el uso de internet cada día vemos más mitos y verdades sobre el implante de cabello y extracción de unidades foliculares, por eso, en Savant...</p>
         </div>
-        
+
         <?php /*<a href="/" class="button01">ver todos</a>*/ ?>
     </div>
     </div>
 </div>
 </section>
+
+<!-- Google Code for Conversiones Savant Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 973881614;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "V0eoCKuti18QjoKx0AM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/973881614/?label=V0eoCKuti18QjoKx0AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
 <?php include ("includes/footer.php");?>
 </body>
