@@ -14,6 +14,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
+<script src="//load.sumome.com/" data-sumo-site-id="d83aa180f76c8c6613e450f0280a81a3f5c5098383a9dfdc0c3b969987935308" async="async"></script>
 </head>
 <body>
 <?php include ("includes/header.php");?>
