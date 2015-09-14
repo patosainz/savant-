@@ -21,7 +21,7 @@
     <a href="quienes-somos.php"				<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "quienes-somos.php")				{ echo ' class="select"'; } ?>>quiénes somos</a>
     <a href="alopecia-androgenetica.php"	<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "alopecia-androgenetica.php") 	{ echo ' class="select"'; } ?>>alopecia</a>
     <a href="servicios.php"					<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "servicios.php") 				{ echo ' class="select"'; } ?>>servicios</a>
-	<?php /*<a href="informacion.php"				<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "informacion.php") 				{ echo ' class="select"'; } ?>>información</a>*/ ?>
+	  <a href="www.blog.savant.com.mx">blog</a>
     <a href="faq.php"						<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "faq.php") 						{ echo ' class="select"'; } ?>>faq</a>
     <a href="contacto.php"					<?php if (basename($_SERVER['SCRIPT_FILENAME']) == "contacto.php") 					{ echo ' class="select"'; } ?>>contacto</a>
 </nav>
