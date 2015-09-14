@@ -3,7 +3,7 @@
 <div class="siguenos">
     <h4>Síguenos</h4>
     <p>Mantente informado sobre el cuidado necesario y las diferentes actualizaciones que tenemos para tí.</p>
-    
+
     <br>
     <div class="redessociales">
     <a href="https://www.facebook.com/SavantCRC?fref=ts" target="_blank" class="social facebook">facebook</a>
@@ -37,8 +37,6 @@
     <li class="break"><a href="../politica-privacidad.php">Politica de privacidad</a></li>
     <li><a href="../sitemap.php">Mapa de sitio</a></li>
 	</ul>
-    <small><a href="http://haroconsultores.com.mx" target="_blank">Desarrollado por Haro Consultores</a></small>
-</div>
 </div>
 <div class="copyright">Savant 2015. Todos los derechos reservados.</div>
 </footer>
