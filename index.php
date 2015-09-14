@@ -36,8 +36,8 @@
     	<p>Lunes a Viernes: <strong>8:30am a 6pm</strong><br>
     	Sábados: <strong>Previa Cita</strong></p>
         <small>Para mayor comodidad en tu consulta con nuestros medicos realiza tu cita.</small>
-        <big>Solicita tu cita hoy</big>
-        <strong>Clic aqui</strong>
+        <big>Llámanos hoy</big>
+        <strong>(81)1935 2011</strong>
     </aside>
 </section>
 <section id="TecnicaFUE" class="GrayContent">
