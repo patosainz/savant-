@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 <head>
+	<!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 <title>Savant</title>
@@ -10,11 +14,7 @@
 <script src="scripts/jquery-1.11.0.min.js"></script>
 <script src="scripts/google-services.js"></script>
 <?php include ("includes/google-analytics.php");?>
-<!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<script src="//load.sumome.com/" data-sumo-site-id="d83aa180f76c8c6613e450f0280a81a3f5c5098383a9dfdc0c3b969987935308" async="async"></script>
+
 </head>
 <body>
 <?php include ("includes/header.php");?>
