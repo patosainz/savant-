@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET["send"])) {
-	require 'PHPMailerAutoload.php'
+	require 'PHPMailerAutoload.php';
 	$Nombre 	= $_POST["Nombre"];
 	$FromMail		= $_POST["Mail"];
 	$Telefono 	= $_POST["Telefono"];
