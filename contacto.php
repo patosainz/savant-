@@ -31,6 +31,7 @@ if (isset($_GET["send"])) {
 	if(!$mail->send()) {
 		header("Location: contacto.php?Enviado");
 	} else {
+		error_log("Mailer Error: " . $mail->ErrorInfo);
 		header("Location: contacto.php?Fail");
 	}
 }
