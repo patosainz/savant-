@@ -78,12 +78,9 @@ phone number link or button. -->
         <a href="procedimiento-extraccion-unidades-foliculares.php" class="button01">ver más</a>
     </article>
     <aside onClick="document.location='contacto.php'" style="cursor: pointer;">
-    	<img src="imagenes/horarios-clinica.png" width="193" height="53" alt=""/><br>
-    	<p>Lunes a Viernes: <strong>8:30am a 6pm</strong><br>
-    	Sábados: <strong>Previa Cita</strong></p>
-        <small>Para mayor comodidad en tu consulta con nuestros medicos realiza tu cita.</small>
-        <big>Llámanos hoy</big>
-        <strong>(81)1935 2011</strong>
+			<big>Haz click aquí</big>
+			<strong>Para hacer tu cita</strong>
+  		<p>O llámanos: <strong>(81)19352011</strong><br>
     </aside>
 </section>
 <section id="TecnicaFUE" class="GrayContent">
