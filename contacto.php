@@ -8,31 +8,30 @@ if (isset($_GET["send"])) {
 	$Mensaje 	= $_POST["Coment"];
 	$Pass		= $_POST["Pass"];
 
-	if ($Pass == date("Y", time())) {
-		$asunto = "Contacto Sitio Savant";
-		$mensaje = '<table width="500" border="0" align="center" cellpadding="3" cellspacing="0" style="font-family:Calibri, Arial, sans-serif; font-size:14px;"><tr><td colspan="2" align="left" bgcolor="#3F464E" style="padding:20px 10px;"><img src="http://savant.com.mx/imagenes/savant-logo-simple.png" width="175" height="29" alt=""></td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">NOMBRE</td><td width="403" bgcolor="#F3F3F3">'.$Nombre.'</td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">E-MAIL</td><td width="403" bgcolor="#F3F3F3">'.$FromMail.'</td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">TELEFONO</td><td width="403" bgcolor="#F3F3F3">'.$Telefono.'</td></tr><tr><td align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">MEDIO CONTAC</td><td bgcolor="#F3F3F3">'.$Como.'</td></tr><tr><td colspan="2" bgcolor="#FFFFFF" style="padding:15px;"><span style="font-size:11px; color:#999;">COMENTARIOS</span><br>'.$Mensaje.'</td></tr></table>';
+	// if ($Pass == date("Y", time())) {
+	$asunto = "Contacto Sitio Savant";
+	$mensaje = '<table width="500" border="0" align="center" cellpadding="3" cellspacing="0" style="font-family:Calibri, Arial, sans-serif; font-size:14px;"><tr><td colspan="2" align="left" bgcolor="#3F464E" style="padding:20px 10px;"><img src="http://savant.com.mx/imagenes/savant-logo-simple.png" width="175" height="29" alt=""></td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">NOMBRE</td><td width="403" bgcolor="#F3F3F3">'.$Nombre.'</td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">E-MAIL</td><td width="403" bgcolor="#F3F3F3">'.$FromMail.'</td></tr><tr><td width="85" align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">TELEFONO</td><td width="403" bgcolor="#F3F3F3">'.$Telefono.'</td></tr><tr><td align="right" bgcolor="#F3F3F3" style="font-size:11px; color:#999; padding-right:10px;">MEDIO CONTAC</td><td bgcolor="#F3F3F3">'.$Como.'</td></tr><tr><td colspan="2" bgcolor="#FFFFFF" style="padding:15px;"><span style="font-size:11px; color:#999;">COMENTARIOS</span><br>'.$Mensaje.'</td></tr></table>';
 
-		$mail->IsSMTP();
-	  $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
-	  $mail->Port = 587;                                    // Set the SMTP port
-	  $mail->SMTPAuth = true;                               // Enable SMTP authentication
-	  $mail->Username = getenv('MANDRILL_USERNAME');                // SMTP username
-	  $mail->Password = getenv('MANDRILL_APIKEY');                  // SMTP password
-	  $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+	$mail->IsSMTP();
+  $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
+  $mail->Port = 587;                                    // Set the SMTP port
+  $mail->SMTPAuth = true;                               // Enable SMTP authentication
+  $mail->Username = getenv('MANDRILL_USERNAME');                // SMTP username
+  $mail->Password = getenv('MANDRILL_APIKEY');                  // SMTP password
+  $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
-	  $mail->From = "".$FromMail."";
-	  $mail->FromName = "".$Nombre."";
-	  $mail->AddReplyTo( "".$FromMail."", "".$Nombre."" );
-	  $mail->Subject = "".$asunto."";
-	  $mail->Body = "".$mensaje."";
-	  $mail->IsHTML(true);
-	  $mail->AddAddress("info@savant.com.mx");
-	  $mail->Send();
+  $mail->From = "".$FromMail."";
+  $mail->FromName = "".$Nombre."";
+  $mail->AddReplyTo( "".$FromMail."", "".$Nombre."" );
+  $mail->Subject = "".$asunto."";
+  $mail->Body = "".$mensaje."";
+  $mail->IsHTML(true);
+  $mail->AddAddress("info@savant.com.mx");
+	if(!$mail->send()) {
 		header("Location: contacto.php?Enviado");
 	} else {
 		header("Location: contacto.php?Fail");
 	}
-
 }
 
 ?><!doctype html>
