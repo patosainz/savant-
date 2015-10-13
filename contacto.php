@@ -22,8 +22,8 @@ if (isset($_GET["send"])) {
 
 	  $mail->From = "".$Mail."";
 	  $mail->FromName = "".$Nombre."";
-	  $mail->AddReplyTo( "".$to."", "".$name."" );
-	  $mail->Subject = "".$subject."";
+	  $mail->AddReplyTo( "".$Mail."", "".$Nombre."" );
+	  $mail->Subject = "".$asunto."";
 	  $mail->Body = "".$mensaje."";
 	  $mail->IsHTML(true);
 	  $mail->AddAddress("info@savant.com.mx");
