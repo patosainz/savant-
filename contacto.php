@@ -28,7 +28,7 @@ if (isset($_GET["send"])) {
   $mail->Body = "".$mensaje."";
   $mail->IsHTML(true);
   $mail->AddAddress("info@savant.com.mx");
-	if(!$mail->send()) {
+	if($mail->send()) {
 		header("Location: contacto.php?Enviado");
 	} else {
 		error_log("Mailer Error: " . $mail->ErrorInfo);
