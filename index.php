@@ -77,7 +77,7 @@ phone number link or button. -->
       <p class="intro">El médico especialista del procedimiento será el responsable de realizar la evaluación, el plan de restauración capilar y de realizar la totalidad del procedimiento por lo que se asegura el máximo nivel de calidad, profesionalismo y ética al estar el paciente en todo momento en manos del cirujano calificado, con experiencia y certificación.<br><br></p>
         <a href="procedimiento-extraccion-unidades-foliculares.php" class="button01">ver más</a>
     </article>
-    <aside onClick="document.location='contacto.php'">
+    <aside onClick="document.location='contacto.php'" style="cursor: pointer;">
     	<img src="imagenes/horarios-clinica.png" width="193" height="53" alt=""/><br>
     	<p>Lunes a Viernes: <strong>8:30am a 6pm</strong><br>
     	Sábados: <strong>Previa Cita</strong></p>
