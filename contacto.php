@@ -57,6 +57,26 @@ if (isset($_GET["send"])) {
 <![endif]-->
 </head>
 <body>
+
+	<!-- Google Code for formulario Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 943675560;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "Hu42CLrAt2AQqLH9wQM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/943675560/?label=Hu42CLrAt2AQqLH9wQM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
 <?php include ("includes/header.php");?>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.4060555713572!2d-100.37067100000003!3d25.657831000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bdf2586795c9%3A0x6a5be41d59b4813e!2sSAVANT!5e0!3m2!1ses-419!2smx!4v1426017796458" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 <section id="Contacto" class="WhiteContent warp">
