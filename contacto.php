@@ -103,7 +103,7 @@ var google_remarketing_only = false;
     <div class="FormField"><label for="Telefono">Teléfono:					</label><input type="tel" 	name="Telefono" id="Telefono"	></div>
     <div class="FormField"><label for="Como"	>Como se entero de nosotros:</label>
     <select name="Como" id="Como">
-        <option value="[Sin respuesta]"			>Seleccione una opcion						</option>
+        <option value="[Sin respuesta]"			>					</option>
         <option value="Cliente Savant"			>Soy cliente Savant							</option>
         <option value="Recomendacion"			>Recomendacion personal						</option>
         <option value="Buscador internet"		>Buscador de internet (Google, Bing, etc)	</option>
