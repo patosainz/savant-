@@ -81,12 +81,11 @@ var google_remarketing_only = false;
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.4060555713572!2d-100.37067100000003!3d25.657831000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bdf2586795c9%3A0x6a5be41d59b4813e!2sSAVANT!5e0!3m2!1ses-419!2smx!4v1426017796458" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 <section id="Contacto" class="WhiteContent warp">
 	<div class="infoContacto">
-		<hr>
     <h2>Dirección y teléfono</h2>
     <p class="intro">Calzada San Pedro No.100, Piso 4, Colonia del Valle. San Pedro Garza Garcia, Nuevo León, México.</p>
     <p class="intro"><big>Teléfonos: (81) 1935 2011 y (81) 1935 2012</big></p>
     <h2>Horarios de atención</h2>
-<section id="Contacto" class="WhiteContent warp">
+    <hr>
 		<p class="horario">
     Lunes de Viernes de <strong>8:30am a 6:00pm</strong><br>
     Sabados con <strong>Previa Cita</strong><br>
