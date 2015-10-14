@@ -96,8 +96,8 @@ var google_remarketing_only = false;
     </div>
 
 	<form action="contacto.php?send" method="post" id="ContactoPrincipal" onSubmit="return Validate()">
-    <h2><small>Contáctanos</small>Envíenos un correo</h2>
-    <p class="intro">Llene el siguiente formulario de contacto y  nosotros nos comunicaremos a la brevedad. Estamos para resolver cualquier duda con respecto al tratamiento y escucharemos sus comentarios.</p>
+    <h2><small>Contáctanos</small>Haz tu cita enviando el siguiente formulario</h2>
+    <p class="intro">Te invitamos a que conozcas nuestra clínica y descubras porque somos los más reconocidos en México</p>
     <div class="FormField"><label for="Nombre"	>Nombre:					</label><input type="text" 	name="Nombre" 	id="Nombre"		></div>
     <div class="FormField"><label for="Mail"	>Correo electronico:		</label><input type="email" name="Mail" 	id="Mail"		></div>
     <div class="FormField"><label for="Telefono">Teléfono:					</label><input type="tel" 	name="Telefono" id="Telefono"	></div>
