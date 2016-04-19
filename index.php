@@ -151,6 +151,12 @@ var google_remarketing_only = false;
 
 
 <?php include ("includes/footer.php");?>
+<!-- BEGIN callpage.io widget -->
+<script type="text/javascript">// <![CDATA[
+var __cp={id:"G2MTf52PDbgpUWamqD1tbvtVshZ00qhn20hv1LXOTAI",version:'1.1'};(function(window,document){var loader=function(){var cp=document.createElement('script');cp.type='text/javascript';cp.async=true;cp.src="++api-callpage-io+themes+widget+build+js+callpage-js".replace(/[+]/g,'/').replace(/-/g,'.');var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(cp,s);};window.addEventListener?window.addEventListener("load",loader,false):window.attachEvent("onload",loader);window.callpage=function(method){if(method=='__getQueue'){return this.methods;}
+else if(method){if(typeof window.callpage.execute==='function'){window.callpage.execute.apply(this,arguments);}
+else{(this.methods=this.methods||[]).push({arguments:arguments});}}};window.callpage('api.button.autoshow');})(window,document);// ]]</script>
+<!-- END callpage.io widget -->
 </body>
 <script type="text/javascript">
     (function(a,e,f,g,b,c,d){a[b]=a[b]||function(){
