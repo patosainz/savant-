@@ -38,5 +38,5 @@
     <li><a href="../sitemap.php">Mapa de sitio</a></li>
 	</ul>
 </div>
-<div class="copyright">Savant 2015. Todos los derechos reservados.</div>
+<div class="copyright">Savant 2016. Todos los derechos reservados.</div>
 </footer>
