@@ -29,13 +29,13 @@
 <section id="Servicios" class="WhiteContent warp">
 	<article id="Servicio_Criopolisis">
     	<img src="imagenes/servicios-criopolisis.png" width="280" height="140" alt=""/>
-        <h2><small>servicio de</small> Criopólisis</h2>
+        <h2><small>servicio de</small> Criolipólisis</h2>
         <p class="intro">Reducción de medidas por la destrucción de acúmulos de grasa mediante el uso de temperaturas frías (5 a -10 ºC).</p>
 		<p class="intro">Tratamiento completamente ambulatorio que no requiere anestesia ni periodos de recuperación.</p>
 		<p class="intro">Están indicadas tres sesiones para obtener entre un 70 y un 90% del resultado de una liposucción, cada sesión tiene una duración de una hora.</p>
 		<p class="intro">Indicada para zonas como: abdomen, costados, espalda alta, espalda baja, entrepierna, caderas y brazos.</p>
     </article>
-    
+
     <article id="Servicio_Botox">
     	<img src="imagenes/servicios-botox.png" width="280" height="140" alt=""/>
         <h2><small>servicio de</small> Botox</h2>
@@ -43,7 +43,7 @@
         <p class="intro"> Proporciona un aspecto más juvenil a la piel. </p>
         <p class="intro"> Indicado para aplicarse en arrugas<br>de la frente, ente cejo, <br>cola de ceja, periorbitarias,<br>dorso de la nariz, cuello y arrugas <br>peribucales. </p>
     </article>
-    
+
   <article id="Servicio_ImplanteCapilar">
     	<img src="imagenes/servicios-implantecapilar.png" width="340" height="200" alt=""/>
         <h2><small>servicio de</small> Implante Capilar</h2>
