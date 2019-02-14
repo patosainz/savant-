@@ -24,22 +24,23 @@
 <script src="scripts/jquery-1.11.0.min.js"></script>
 <script src="scripts/google-services.js"></script>
 <?php include ("includes/google-analytics.php");?>
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5G3KXS2');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G3KXS2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <?php include ("includes/header.php");?>
 
-<!-- Google Code for Llamadas Savant Conversion Page
-In your html page, add the snippet and call
-goog_report_conversion when someone clicks on the
-phone number link or button. -->
-<script type="text/javascript">
-  /* <![CDATA[ */
-  goog_snippet_vars = function() {
-    var w = window;
-    w.google_conversion_id = 943675560;
-    w.google_conversion_label = "OgI7CO3_4l8QqLH9wQM";
-    w.google_remarketing_only = false;
+
   }
   // DO NOT CHANGE THE CODE BELOW.
   goog_report_conversion = function(url) {
