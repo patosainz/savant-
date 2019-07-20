@@ -103,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="Testimonio">
     	<img src="imagenes/testimonios/index-fernando-tirado.png" width="88" height="141" alt=""/>
-        <p class="frase">“Someterme al procedimiento de<br>SAVANT Restoration Center ha sido una decisión que ha impactado mi vida de una forma extraordinaria.<br>Hoy he cumplido muchas metas y vamos por más”</p>
+        <p class="frase">“Someterme al procedimiento de<br>Savant Restoration Center ha sido una decisión que ha impactado mi vida de una forma extraordinaria.<br>Hoy he cumplido muchas metas y vamos por más”</p>
         <p class="nombre">Fernando Tirado<br><small>Conductor de ESPN<br>Latinoamérica.<br>Twitter @Fer_Tirado</small></p>
     </div>
     </div>
