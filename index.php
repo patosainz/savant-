@@ -74,7 +74,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </article>
     <article>
       <h2><small>la solución...</small>Procedimiento Savant</h2>
-      <p class="intro">El médico especialista del procedimiento será el responsable de realizar la evaluación, el plan de restauración capilar y de realizar la totalidad del procedimiento por lo que se asegura el máximo nivel de calidad, profesionalismo y ética al estar el paciente en todo momento en manos del cirujano calificado, con experiencia y certificación.<br><br></p>
+      <p class="intro">El médico experto del procedimiento será el responsable de realizar la evaluación, el plan de restauración capilar y de realizar la totalidad del procedimiento por lo que se asegura el máximo nivel de calidad, profesionalismo y ética al estar el paciente en todo momento en manos del cirujano calificado, con experiencia y certificación.<br><br></p>
         <a href="procedimiento-extraccion-unidades-foliculares.php" class="button01">ver más</a>
     </article>
     <aside onClick="document.location='contacto.php'" style="cursor: pointer;">
